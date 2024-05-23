@@ -1,0 +1,239 @@
+Agile SDLC planning and Estimation:-
+--------------------------------------
+   Agile planning and estimation is the critical component 
+   of software develoment.
+
+  the below is the list of steps for planning and estimation.
+
+1. product backlog refinement:-
+--------------------------------
+   -> the product owner colloborate with stackholder to refine the 
+    product backlog, ensure that list of feature should be prioritize.
+
+  -> the team reviews and discuss the each backlog item.for more
+  clarification.
+
+2. sprint planning metting:-
+----------------------------
+   -> the team selects a certains items from the product backlog.
+      select the core iteam to develope first, considering the 
+      complexity, market needs. 
+
+   -> the selected backlog item that is converted into a task, and 
+     the task shoule be implemented as product feature.
+
+3. story point estimation:-
+----------------------------
+    ->  how much the complexity is involved based on that, 
+      based on that the estimated duration is assigned to the 
+      particular task. 
+        (to write a particular userstory how much time it may take)
+        eg:-
+        ----
+           write a userstory for login.  (1 hr)
+           write a userstory for booking. (4 hr)
+
+4.task estimation:
+-------------------- 
+    -> to complete the give user story as a product feature.
+       ->no number developer, 
+       -> task complexity,
+       -> project depedencies (any external api, license needed).
+
+5.sprint goal:-
+----------------
+   ->every member of team should be aware of spring goal.
+     the team should be aware of sprint outcome.
+
+       eg:-
+       ----
+         loan feature to be released.  
+      
+================================================================
+ effective daily standup:-
+ -------------------------
+   
+ step1:- set the meeting context.
+ step2:- desired meeting time and location. 
+           eg:-
+           ---- 
+              10 am  --> daily
+              online and offline options
+     
+            
+step3:-[on the day of meeting],
+      ->scrum master/ manager will welcome every, 
+      and inform team member to update the status.
+
+step 4:- each team memeber has to tell his status in same format.
+        3 question..?
+
+        what we did yestarday..?
+        what we will do today..?
+        Is any thing blocking..?
+
+        keep the update short and clear.
+
+step 5:- all the team memeber should have a chance to update their
+
+step 6:- start and end time should be followed. 
+         meeting should not be extended.
+
+step 7:-listen to team memeber status,
+===============================================================
+people involved in daily standup meeting:-
+-------------------------------------------
+1.developer team:-
+ -----------------
+   designer, developer, tester, who are involved in the project 
+   they will be joining the meeting. to give their status.
+
+2.scrum master:-
+-----------------
+   -> he guides the team. 
+   -> motivate the team to follow agile practice.
+   -> scrum master ensure that, the team member status are up to 
+      date.
+
+
+3. product owner:-
+------------------
+    -> when there is a need product owner will join the standup call.
+     for clarification of the requirement.
+
+4.stackholder(optional):-
+--------------------------  
+   -> very rarely manager  join the stand up meeting.
+   -> to address the challenges / issues manager will join the call.
+
+=================================================
+responsiblity of scrum master:-
+-------------------------------
+1. guide the team. (mentor / choice)
+2. motive team to follow agile practice.
+3. identify the issues, and provide necessary solution.
+4. ensure team colloboration, 
+5. ensure team status up to date.
+6. protect the team. 
+7. team improvement. (upgrade new skills, improve in performance).
+======================================================
+effective communication during testing phase:-
+-----------------------------------------------
+steps:-
+--------
+1. pre-testing communication planning:-
+        -> before the actual testing start, stackholder tells 
+        expectations. what is the outcome of testing.
+
+2.Test plan Review Metting:-
+    -> what are the difference types of testing is involved.
+    -> here develoment team, testing team and product owner is 
+    involved.
+     how the approach of testing for a particular functionality.
+
+3. Setup for Defect Tracking system. 
+     eg:-
+     ---- 
+       jira 
+       trello
+       ....etc...     
+      during testing, if any issue occurs in the functinality,
+      it need to be reported to developer, through any tool jira or trello.
+
+     manager/ product owner / scrum master and other team member 
+     can able to see the issue which are raised in testing phase 
+     in jira/trello.
+
+     jira/trello:-
+     --------------
+        It is a central issue tracking, all the issues are resolved
+        issue , pending are can be clearly visible in the tool.
+
+4.Test Result report documentation.
+     after testing , then maintain a report for the test passed 
+     and test failed.
+
+     after testing , time to time report need to be update.
+
+5. Defect Triger Metting:-  
+    list out all the defects , prioritize the defects and try to 
+    fix the issues,and  action plan to fix the issue.
+
+    (types of testing will done)
+    unit testing
+    functinality testing
+    system testing 
+    integration testing
+
+6. User acceptance testing.
+    colloborate closely with the end user, do all the acceptance
+    testing.
+
+     Acceptance Testing is the last phase of software testing 
+     performed after System Testing and before making the 
+     system available for actual use.
+      
+      developer, tester, product owner are involved in defect team.
+
+===============================================================
+Deployment and release:-
+------------------------
+release phase:-
+-------------- 
+    in release phase invovles,
+             packaging, (pack all the classes into one )
+             managing, (provide run time dependency)
+             and deploy release across different environment.
+                
+             development environment [development server]
+             testing environment    [testing server]
+             production environment  [production server]
+
+
+           production server:-
+           ------------------ 
+               when we push the code production server, then 
+               it is live for the end user.
+
+              develoment server (daily all the developer task are 
+                 |              pushed to development server)
+                 |
+              testing server   (after completing the functinality,
+                 |            the, it is pushed to testing server)
+                 |
+              production server  (if every thing is tested and works
+                                  then it will move to production)  
+                                 where it will be live for the customer.
+
+Post - Deployment:-
+-------------------------
+1. operate phase:-
+ ----------------
+   It is nothing but, use of software by the end user in the 
+   production environment.
+
+2.mointer / maintanace phase:-
+------------------------------
+    here the software is monitored, which include 
+        1. system performance.
+        2. user experience.
+        3. there should be a is support team, to manage the issue.
+
+        
+
+
+
+
+           
+
+              
+         
+
+
+
+    
+
+
+
+   
+

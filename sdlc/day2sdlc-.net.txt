@@ -1,0 +1,588 @@
+day 2:-
+------- 
+
+language:-
+-----------
+  communicate 
+
+programming language:-
+-----------------------
+  by using programming language, we can able to communicate with system.
+
+  some of the programming languages,
+  -------------------------------------
+   n number of programming languages,
+
+   computer knows machine language. i,e 0's and 1's
+
+evolution of programming language:-
+-----------------------------------
+1. machine level language:-
+---------------------------
+   It has only 0's and 1's. 
+
+    2    +      2 = 4 
+   0100 0001 0101 = 1001    (computer can understand this code)
+     
+ 
+2. assembly level langauge:-
+----------------------------
+   here phenomics and symobols is introduced.
+    
+      2       +   2  =  4  
+      01010  add  0101 =0101  (computer will not understanding,)
+   
+   (assembly level labguage)
+   add,
+   sub,
+   mul ,
+   div 
+
+   assemblers:-
+   -------------
+     It will convert assembly level language to machine level language.
+
+     add -- 01010
+     sub -- 10101
+
+
+3.High level language:- (code is understand by human)
+-----------------------
+     c, cobol, fortan.
+
+    -> c is the mother for all other programming language.
+        
+        condition stmt ,if, if else,
+        looping stmt ,for , while,..
+           It has introduced first in c programming language.
+
+           if(logintime>9)
+             {
+                 "you are absent"
+             }
+
+     ->Later C is termerd as middle level langauge, because C has both 
+     high level and low level feature.
+
+       high level feature:- condition stmt, looping stmt
+
+       low level feature:- pointer.
+
+oops:-  object oriented programming system.
+------   
+  (java, .net, python, php,.....)
+     
+     -> by using oops we can able to solve real world problem.
+     
+     ->By using oops we can able to create the software based on real 
+     world object.
+
+     
+     why we develope software:-
+     -------------------------  
+        -> to solve day to day life problem.
+        -> to solve some real world problem.
+
+    eg:-
+    ---  
+       20 year, when there was no online application.
+
+       if we want to buy food.  (problem)
+       ------------------------
+       ->go to the near by restraunt.
+       -> choose the menu 
+       -> pay for the order 
+       -> wait and collect the order.
+       
+       oops has solved the above problem.
+
+
+AI/DataSciene/Machine learning:-
+---------------------------------
+     youtube,gmap,....etc
+
+--------------------------------------------------------------------
+application types:-
+---------------------
+  1. desktop application.
+  2. web application.
+  3. mobile application.
+
+ 1.desktop application:-
+ ---------------------
+   ->installable software.
+       eg:-
+       ---- 
+         notepad, paint, ms team, chrome browser,ms office,..
+
+        drawback:-
+        -----------
+          ->we have to provide the space. 
+          -> we have to take care about maintanance.
+              (any update, change os--> reinstall every thing)
+    
+ 2.web application:-
+ --------------------
+       2 types.
+
+       1.static web application.
+       2.dynamic web application. 
+
+   1.static web application:-
+   -------------------------
+      -> the content is same to all the user.
+      -> any about us web site, 
+          eg:-
+          ----
+             about hp laptop
+             w3schools
+
+        technology:-
+        ------------
+          html,css,bootstrap,js.
+
+   2.dynamic web application:-
+   ---------------------------
+       -> the content is different to all the user, based on user login.
+
+       eg:-
+       ----- 
+           facebook, insatgram, gmail, youtube,..
+
+           Note:-
+           -------
+             the dynamic content load from database.
+
+         technology:-
+         ------------
+             frontend: (presentation layer) what user see's or UI
+                        eg:- html,css,react js, angular 
+            
+             backend:  business logic. 
+                         java, .net , python
+            
+             database:to store data permanently we use database.   
+
+mobile application:-
+------------------- 
+     -> 70 % of the use the mobile application
+     
+      irctc -70% mobile 
+             30% web
+       same for flipkart, zomato,..      
+     
+     easy handheld device. 
+
+========================================================================
+SDLC:-  Software Development Life Cycle.
+-----
+    while developing the software, the below given stages are involved.
+   
+   stages in sdlc:-
+   -----------------
+  1.planning & requirement gathering. 
+  2. feasiblity study (analysis).
+  3. design. 
+  4. coading. 
+  5. testing. 
+  6. deployment. 
+  7. maintanace.
+  
+ 1. planning & requirement gathering:-
+  ------------------------------------
+  -> here client requirement is gathered.
+  -> translate the business language into software language.
+  -> business analyst and product analaysis.
+
+ 2.feasiblity study.
+ ---------------------
+    -> employee resource is available or not.
+    -> financial resource.
+    -> time and deadline. 
+     
+     here developer, Architect, business analyst, hr, ....except tester.
+
+ 3.design:-
+ ---------
+      high level  --> just an overview of the application
+                         (what is frontend what is backend)
+                          what database, which payment gateway,..
+     
+      low design  -->detailed design, how every works.  
+                      detailed function how it worlks,
+                        eg:-
+                        ----
+                           login features,
+                            how login, how to reset the password works.
+                
+                UML Diagram
+                class diagram
+
+4. coading:-
+------------ 
+     here is the actual development starts.
+
+- done by all developers – seniors, juniors, freshers
+- this is the process where we start building the software 
+  and start writing the code for the product.
+
+5.testing:-
+------------ 
+   ->It checks each and every feature. weather it works as per the client 
+   requirement. 
+      
+      developer --> 2+2   = 4   (unit testing)
+     
+      tester   ---> 2+2.6 = 4.6 
+                            4
+               ----> "2"+2  = error messgage
+
+               ---> 0.2 + 2.0 => 2.2
+
+            tester has to check different test case, 
+       the more testing we do, it improves the quality of the product.
+
+6.deployment:-
+----------------
+   after testing the code pushed to production server, where it is 
+   live. 
+
+7.maintain:-
+-------------
+     ->after deployment, it will go for maintanace,
+     -> for database backup,
+     -> small patch update, 
+
+     to make system more reliable and stable, keep regular maintanace.     
+     
+====================================================================
+SDLC models. 
+
+1. water fall model
+2. agile 
+3. v model.
+4. iterative model.
+
+====================================================================
+water fall model:-
+---------------------
+  -> It is a step by step process to develope the software.
+  -> Each stages complete the task one by one.
+  
+  here first, 
+       requirement gathering 
+                |               (after completing requirement getahering )
+          feasiblity study 
+                |              (completed => requirement, feasiblity study)
+              design 
+                |               (completed=>requirement,feasiblit study,design)
+              coading 
+                |          (requirement,feasiblity study,coading,coading,...)
+              testing 
+                |
+            deployment. 
+                |
+             maintanance.         
+
+   ->at requirement stage, the client has to give all the requirment.it is fixed
+   and finalize. later client can't change the requirement.
+   
+   ->to complete the project, their is a estimation happend based on
+   complexity and number of people are invoved in the project.
+      eg:- 6 months  (deal line to complete the project)
+
+   ->the client can review the product only at the end,
+   
+   drawback:-
+   ----------
+     -> changes cannot be accepted.
+     -> client the see the product only at the end.
+     -> specify all the requirement at requirement gathering stage only.
+
+     eg:-
+     ----
+       I want to develope a chat application(like whatapp) using water fall model.
+
+      mychat app
+  requirement gathering:-
+  ------------------------    15 days
+       chat feature,
+       call --> audio , video,
+       status --> 
+       chat --> text, multimedia,location,docs,emoji,..
+       privacy setting 
+       profile 
+
+  feasiblity study:-     10 days
+  --------------------
+    -> which technology 
+         employee resource, financial resource,..
+
+  design:-      15 day
+  ---------
+   coading:-     45 day
+   -------
+   testing:-     30 days
+   ----------
+   deployment:-  5 days
+   --------
+   maintanace:-
+   -----------  
+       (after doing all the stages client can review the product at the end only.)            
+
+when to use waterfall model:-
+-------------------------------
+1. for small scale application.
+     eg:-
+     ----
+        notepad 
+        alaram 
+        remainder app. 
+    clear idea about requirement, and requirement will not change 
+    time to time.  
+
+==========================================================================
+product companies and service based companies.
+-----------------------------------------------
+
+
+product companies:-
+------------------
+   google, fb, flipkart,oracle,zeta,meta,...
+
+  how product based companies get the requirement:-
+  ------------------------------------------------
+  ->they have R&D department,  they continuously research. 
+  -> they develope innovation product,having research team is involved.
+
+  revenue model for product based companies:-
+  -------------------------------------------
+  -> they selle the product to customer, 
+          revenue model: 
+                -subscription.
+                -license.
+
+service based companies:-
+--------------------------
+   -> infosys, tcs, wipro,cognizant, hcl,capg,...  
+        
+       -> client gives the requirement to built the software for 
+        service based companies.
+       
+       software application domain:-
+       ----------------------------
+       banking (fintech)  --> axis,kotak,icici, natwest, 
+       insurance          -->  tata aig,...
+       ecommerce          -->  brands having own ecommerce, lp,puma,soch,...(online store)
+       education          --> education portal
+       healtcare          --> apollo, 
+       gaming             -->
+       entertainment (ott) -->
+       aerospace          -->
+
+         Any business , from any stream want to adapt technology,   
+         service based companies are there to help them.
+
+        How service based companies get the revenue:-
+        ---------------------------------------------
+         -> here client pay the amount, based on project and service, 
+          based on the billing.
+
+         -> client do aggrements and contract for software service.
+
+=========================================================================
+Agile:-
+--------
+   -> It is iterative incremental software development model.
+   -> In agile,we develope the products in sprints, 
+   -> At the end of each sprint, we develop a particular software 
+      feature. eg: login feature,
+
+   what is sprint:-
+   ---------------
+       sprint means particular duration of time.
+       
+       duration can be 1 to 4 weeks,
+          
+    
+    eg:-
+    ------ 
+       whatapp features
+       ------------------
+         chat 
+         call (audio/video)
+         status 
+         profile 
+         privacy 
+         payment
+
+     the above is the whatapp features, if we want to develope the 
+     above software using agile methodology means, 
+
+     In agile we are developing the project in sprints,
+
+    eg:-
+    ----
+    (start with core feature)
+            
+    sprint 1:-
+    ---------
+        chat  feature 
+
+     requirement analsis- design - code- testing - deployement [show demo to client]                   
+                                         (chat test)
+
+    sprint 2:-
+    ---------------
+         status 
+    requirement analsis- design - code- testing - deployement [show demo to client]                   
+                                           status test 
+                                           chat test
+                                        (integration testing)
+   
+
+    sprint 2:-
+    ---------------
+         call
+    requirement analsis- design - code- testing - deployement [show demo to client]                   
+                                       call testing 
+                                       chat testing 
+                                       status testing 
+                                       (integration testing)
+
+  adv of agile:-
+  ---------------
+    -> after every sprint, customer can see the product and give the feedback.
+       for improvement.
+    
+    -> adding new features easily.   
+    -> flexible for requirement change.
+    -> improves quality.
+    -> customer satisfication. 
+    -> Risk management. -> (if any risk in there, it will be notified at early 
+                            stage only.
+                            )                                      
+    
+where we use agile:-
+---------------------
+ -> from mid level to large level companies follows agile.
+ -> when the requirement are continuously changing, then we can go for agile.
+
+
+Agile framework:-
+----------------
+1.scrum 
+2.kanban
+=============================================================
+scrum framework:-
+----------------- 
+Roles:-
+--------
+  product owner: product owner interact with customer and sprint team,
+  scrum master:who manages the sprint team
+  team memeber: who works on the features, to complete in that particular 
+                sprint.
+
+document:-
+-----------
+product backlog & sprint backlog
+
+sprint:-
+---------
+    interval of time [ 1 to 4 weeks]
+     
+   daily stand up:-
+   --------------- 
+     what have done yestarday.
+     what we will do today.
+     Any this is blocking.  
+
+====================================================================
+
+Sprial model:-
+---------------
+   -> In spiral model, the software are developed based on iterations/module.
+   -> It is widely used model, for large scale applicatio we can use spiral model.
+
+   when to choose spiral model:-
+   ----------------------------
+      ->when the risk, is more invoved in the project. then we can 
+      choose spiral model.
+
+      -> when the requirement are not clearly understand.
+
+=====================================================================
+V- model:-
+------------
+   (Verification & Validation model.)
+
+   In V model, in every stage, testing will happen.
+
+      requirement         -------------- acceptance testing (tester)
+      
+      high level design   -------------   system testing
+
+      low level design     --------------   functional testing
+
+       coding              ------------  unit testing  (developer will do unit testing)
+             
+              float sum(int a, int b)
+               {
+                   return a+b;
+               }
+                
+    drawbrack:-
+    -----------
+       testing stage start from the inital stage, need more testing resource.
+
+    adv:-
+    -------
+        result a good quality product.
+===========================================================================
+
+
+
+
+
+
+
+
+
+==================================================
+Difference :-
+----------------------
+
+Waterfall Model:-
+------------------
+Sequential, phase-dependent model.
+Each phase must be completed before the next begins.
+Best suited for projects with well-defined requirements.
+
+
+Agile Methodologies:-
+---------------------
+Emphasizes iterative development and flexibility.
+Encourages customer involvement and feedback.
+Suitable for projects with changing requirements.
+
+
+Spiral Model:-
+----------------
+Combines iterative development with systematic, risk-driven approaches.
+Focuses on early identification and mitigation of risks.
+Ideal for large, complex projects with significant risks.
+
+V-Model:-
+----------
+Known as the Verification and Validation model.
+Each development phase has a corresponding testing phase.
+Emphasizes the importance of testing in every phase of development.
+
+
+
+
+
+
+
+
+

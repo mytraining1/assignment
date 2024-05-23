@@ -1,0 +1,297 @@
+how to improve the quality of the software...?
+-----------------------------------------------
+ -> testing again and again.
+
+ -> The more testing we do, the software will be more reliable and stable.
+
+ TDD:- (Test Driven Development).
+ ----- 
+   ->software develpment is a process , where error occures frquently. 
+  
+   -> In Traditional Development approaches, error are found after the coading 
+      the logic then only we can find the error.(i,e) when run the program. 
+      (or) when we build the application at that time error will come.
+
+    to overcome the above problem we use tdd.
+    ------------------------------------------
+
+      Test Driven Development is a programming Style,where we write the test first
+      and then write the code.  
+
+      Note:-
+      -----
+                 (TDD Approach)                (Normal Approach)
+              -> first write the test        -> first do the coading
+              -> then do the coading.        -> then do the testing
+
+------------------------------------------------------------------
+different types testing..?
+----------------------------
+unit testing (developer)
+white box  (tester).
+black fox  (tester).
+functional (tester).
+stress     (tester).
+sanity     (tester).
+
+what is the work of developer:-
+-------------------------------- 
+    to write the code, 
+      
+        int add(int a,int b)
+        {
+           return a+b;
+        }
+
+  task:-
+  -----
+     write a function, to find largest of 3 number.
+
+======================================================================
+How TDD Works:-
+----------------
+   ->Test Driven Development starts with writing the test for each
+   function(or)feature. 
+
+   ->Initially the test are failed because the test are developed
+    even before the development.
+
+   ->Development team then write the code,and modify the code to pass
+    the test. 
+   
+      flow diagram:-
+      --------------
+         write the test 
+            |
+         run the test     
+            | 
+         refactor the code( make changes until it get passed)
+           |
+          run the test  
+           |
+           test will pass.   
+
+scanario for testing:-
+-----------------------
+  valid input. 
+  invalid.
+  all the difference scanario.
+  every thing that might break the code.
+
+
+adv of TDD:-
+--------------
+   -> less debug time.
+   -> It meets customer requirement.
+   -> less defects. 
+   
+=====================================================================
+
+Frameworks for Test Driven Development:-
+-----------------------------------------
+Based on unique programming languages, 
+
+multiple frameworks support test driven development. Listed below are a 
+few popular ones.
+
+.net:-
+--------
+csUnit and NUnit are open source unit testing frameworks for .NET projects.
+
+python:-
+----------
+PyUnit and DocTest: Popular Unit testing framework for Python.
+
+
+java:-
+---------
+Junit: Widely used unit testing tool for Java
+
+===========================================================================
+BDD:-   (behaviour Driven Development).
+---------------------------------------
+  
+  BDD is all about collobaration between teams. 
+     
+     development team:  (write the code) --> java/python/.net
+     testing team:
+     business analyst:  (discuss with client) ->give the requirement to 
+                        development team
+                       
+     product analyst:
+
+
+  BDD is used for the behaviour  of the system, weather it is developed 
+  as per the client requirement or not.
+
+  BDD uses a common language, to communicate between the teams.
+ 
+  BDD communicate between developers, business analyst,testing -> the aim 
+  is the deliver the product as per the customer requirement.
+
+
+The three principles of BDD are:
+
+1.Focus on the desired behavior or outcomes
+2.Collaboration between developers, testers, and business stakeholders
+3.Use of a common language for communication and understanding.
+
+
+
+In BDD, the “script” is written in a language called Gherkin, 
+which uses simple words like “Given”, “When”, and “Then” pattern.
+
+eg:-
+---- 
+   booking feature:-
+   ------------------
+    
+    given:
+       username and password 
+
+    when: 
+        if username and password is valid 
+        if tikets are available 
+
+    then:
+       tickets should be booked to the user       
+=====================================================================
+ write a scanario for booking a ticket in online application 
+
+ scanario : search a movie.
+
+ given: my username as sachin 
+  and : my password as pass 
+  and :I enter my username into textfield 
+  and : I enter my password into textfield 
+  and : I click the login button.
+
+ Then : I should navigate to home page.
+ and : I should display the banner, with movies curretly
+ and : I should a search box with empty text into 
+
+when : I click on search bar 
+and  : when we type comedy into search bar,display the result 
+
+
+tools:-
+--------
+  cucumber --> java
+  specflow --> .net
+
+Cucumber:-
+-------------
+
+->Cucumber is a tool that supports BDD. 
+
+->It allows you to write your tests in a language called Gherkin, 
+
+->cucumber is easy to understand for both technical and 
+non-technical team members. It’s like having a simple recipe that 
+everyone can follow to bake the perfect cake for the party.
+
+====================================================================
+
+task:-
+------ 
+  ->write the requirement document overview.
+     (describe overview of software requirement)
+
+
+  ->write some 3 gerkin feature of your application.   
+
+===================================================================
+FDD:-
+------ 
+   -> feature driven development. 
+
+   -> It is a iterative incremental software development process.
+  
+   -> In fdd, the software product is developed feature by feature in 
+     an incremental approach.
+
+
+   -> focuses on developing working software with features that
+      satisfy client needs.
+  
+   eg:-
+   -----
+      ecommerce application.
+      ----------------------
+       feature:-
+       ----------
+        login feature.
+       
+        placing a order in ecommere application feature.
+           sub task:-
+                 search the product 
+                 add to cart 
+                 add address details 
+                 add payment 
+                 once payment is done 
+                 receive the notification
+
+
+ecommerce application feature list:-
+------------------------------------
+->login 
+->booking the order
+->cancel the order
+-> exchange the order
+->review 
+->tracking 
+->refund 
+->profile 
+->rewards 
+->address features
+->payment mode  
+->order history 
+->filter  
+->search 
+
+   FDD flow chart:-
+   -----------------
+     develope over all model
+       |
+     build the feature list    (login,product, booking, cancel,refund,reward)
+       | 
+       |
+     plan the feature      plan for booking feature
+       |
+     design the feature    desing the booking feature
+       |
+     build by feature      build the booking feature 
+
+========================================================================
+TDD:-
+-----
+   to ensure the written code, meets the customer requirement.
+
+BDD:-
+----- 
+   the behaviour should match about the customer requirement.
+      
+
+Fdd:-
+-----
+   release the sofware feature by feature, 
+
+========================================================================
+
+
+
+
+           
+   
+
+
+
+
+
+
+
+
+     
+
+
+

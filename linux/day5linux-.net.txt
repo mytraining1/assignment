@@ -1,0 +1,210 @@
+linux:-
+------------
+
+1.what is operation system..?
+  
+  every electronic device has a os, (to manage the hardware and software).
+
+  os -> manages the disk space (full or empty).
+  os -> power management, cpu management
+  os -> os will manages all the software installed
+
+laptop --> (mac,window,linux)
+mobile -->andriod 
+smart watch -> andriod
+
+  -> It is interface between computer and the user.
+     os can manage,
+         ->resource management. 
+         ->memory management.
+         ->device management.
+         ->file system management.
+         ->networking
+         ->security and access control.
+
+windows os:-
+--------------
+    It is a GUI based operating system.
+    
+    users:-
+    ------  
+      -> any noraml user, students, manager,
+      non-technical memeber of company (hr,manager,finance) 
+
+linux os:-
+----------
+     ->It is CLI based operating system.
+
+   users:-
+   -------
+      developers,
+      tester, 
+      Deployment enegineers,
+      students for learning purpose.
+
+NOte:-
+------
+  linux is particular used in server environment.
+
+  server --> computer ( big computer)
+                     high configuration ->ram and harddisk is more.
+
+  all the server system are based on linux.
+============================================================
+explain unix, linux, ubuntu...?
+
+unix:-
+------
+    In 1960 unix operating system was developed at AT&T laboratory.
+    unix is paid software,-> It is only used by the companies 
+    to manage the software.
+    unix will not have any virus, and no need to install anti virus software.
+
+
+how linux founded...?
+------------------------
+    Linux Torvalds is the guy who founded linux operating system.
+
+    he want to us unix os, but cost of unix is high and it is 
+    not customizable.  
+
+    so he decided to build his own os same like unix.which is 
+    open source(free) and customizable.
+
+Linux:-
+--------
+  -> linux is open source os like unix.and it can be customizable,
+   
+  -> It was found by Linux Torvalds.
+   
+  -> Any user can make customize os from linux called as 
+   linux distrubtion 
+      
+    some of the liunx distrubtion:- 
+               1.fedora linux 
+               2.ubuntu linux
+               .......etc 
+
+=============================================================
+difference bewteen:-
+----------------------
+  unix                     vs             linux
+  ------------------              ---------------
+  1.paid                        1.free
+  2.not customizable            2. customizable 
+  3.It mainly used for          3. It can be used by any noraml user
+    servers, workstation.            
+    infrastructure management. 
+  4.It has on CLI based         It has both CLI + GUI
+  5. variant -> less variant   variant-> 
+                                       redhat linux 
+                                       ubuntu linux 
+                                       .........etc.
+
+===============================================================
+basic linux commands:-
+----------------------
+1. ls 
+     different options 
+
+     ls -a  (including hidden file)
+     ls -l  (long listing format)
+     ls -t  (sort by last modifeid file)
+     ls -S   (sort by file size)
+      
+    file permission:-
+    ------------------
+
+    d           r     w      x  
+    |           |     |      |
+    directory  read  write   execute
+  
+2.pwd 
+      cd Videos  ---> relative path.
+      cd /home/rps/Videos  -->absolute path.
+
+3.mkdir 
+    mkdir batch2    
+    mkdir /home/rps/Videos/training     
+
+
+4.rmdir
+    It is used to remove the directory.
+    It can be one or multiple directory.
+
+5.touch 
+     It is used to create a file 
+      
+      touch file_name 
+
+      touch abc   -------> It creates a single file 
+      touch abc xyz pqr ---> It creates 3 files.
+
+
+6.rm 
+    It is used to remove the file 
+    
+      rm file1 
+      rm file1 file2
+
+
+6. cat:-
+    It is used to view the file content 
+
+    create a file:-
+    ---------------
+       cat > file1.txt 
+       hi all 
+       welcome all 
+          
+          (press ctrl +D) --> for exit.
+
+ 
+   (system info)
+7. who:- 
+    current logged in data and time.
+
+8. whoami 
+    display the system username 
+
+9. date 
+      display the date 
+
+10. cal 
+      display the calendar.
+
+11. cp : 
+     It is used to copy the file or folder.
+
+     cp source destination      
+
+12. mv: 
+      
+      It is used to move the file to the destination 
+   
+   
+13. head
+      file content command 
+      head file.txt     ---------> (read first ten line of the file)
+
+14. tail 
+      tail file.txt    ----> read last 10 lines of the command. 
+
+
+15. tac 
+      It is opposite a cat command. 
+      
+      It reads the file content in reverse order.
+
+16. sort 
+       It is used to sort the file data 
+       
+        sort file1.txt   (sort in ascending order).
+        sort -r file1.txt (sort in descending order).
+        sort -u file1.txt  (sort and remove duplicate)
+
+        sort -t"," -k2
+          -t ==> indicates the delimeter. 
+          -k ==> indicates the column.
+        
+
